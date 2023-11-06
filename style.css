@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+	width: 100%; height: 100vh;
+	 
+	 background-image:linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,0.1)),  url('bg1.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+nav{
+	width: 100%; height: 10vh;
+	background: rgba(0,0,0,0); display: flex; justify-content: space-between;
+  align-items: center;
+}
+nav .logo{ width:15%; text-align: center;
+       }
+h1 .logo{
+ font-family: 'Pacifico', cursive;
+}
+nav .menu{
+	width: 60%; display: flex; justify-content: space-around;
+}
+nav .menu a{
+	letter-spacing-spacing: 10px;
+	width: 25%;
+	text-decoration: none; 
+	font-weight: bold;
+}
+nav .animated {
+	color: #00b894
+}
+nav .menu a{
+	color: #00b894;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+section h3{
+	font-size: 15px;
+   font-style: strong;
+	 font-family: 'Josefin Sans', sans-seri;
+	font-weight: 15px; letter-spacing: 5px;
+           text-shadow: 1px 1px 1px black;
+}
+section h1{
+ /*align-content: flex-end;-->*/
+	word-spacing: 100%;
+	color: #00b894;
+	font-size: 60px;
+
+}
+section{
+	font-size: 45;
+	font-weight:500;
+	text-shadow: 2px 1px 5px black;
+}
+section p{
+	font-size: 20px;
+	font-style: strong;
+	font-family: 'Josefin Sans', sans-seri;
+	font-weight: 15px; letter-spacing: 3px;
+	word-spacing: 1px;
+         text-shadow: 1px 1px 1px black;
+}
+section a{
+	font-style: bold;
+	color:white;
+    padding:12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size:13px;
+	font-weight:500;
+	text-decoration:none;
+	letter-spacing:10px;
+	word-spacing: 2px;
+}
+.btnone
+	input[type=submit]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+	background: #60adde;
+	opacity: 0.1;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+    text-decoration: blink;
+	
+	
+
+}
+.btntwo
+	input[type=submit]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+    font-style: strong;
+	opacity: 0.1;
+	border-radius: 20px;
+	font-size: 20px;
+	text-decoration: blink;
+	color: white;
+}
+ .btnone:hover {
+  background-color: #66ffd9;
+  	color: clear;
+  text-decoration: blink;
+}
+.btntwo:hover {
+  background-color: white;
+  	color: black;
+  text-decoration: blink;
+}
+nav:hover{
+	background-color: white;
+	color:#00b894;
+	background:rgba(0,0,0,0.3);
+}
+.change_content::after{
+	content: '';
+	animation: changetext 10s infinite linear;
+
+}
+@keyframes changetext{
+	0%{content: "For KNOWLEAGE"}
+	20%{content: "To LEARN"}
+	40%{content: "For ADVENTURE"}
+	55%{content: "To EXPLORE"}
+	100%{content: "For BOOKS"}
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: #57deb8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color:  #57deb8;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  opacity:0.4;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: black;
+  min-width: 77px;
+  font-family: sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #57deb8;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	
